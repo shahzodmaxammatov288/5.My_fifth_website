@@ -1,0 +1,186 @@
+/*Extra Small*/
+@media screen and (max-width: 576px){
+    /*-------HEADER-------*/
+    header {
+        height: auto;
+    }
+    header p {
+        margin-bottom: 200px;
+    }
+    header h2 {
+        font-size: 20px;
+    }
+    header p {
+        font-size: 12px;
+    }
+    header .nav-link {
+        text-align: center;
+    }
+    /*-------SECTION-------*/
+    section  .section_menu {
+        height: auto;
+        padding: 15px 0px;
+    }
+    section .section_menu button{
+        padding: 15px 20px;
+        margin-top: 15px;
+    }
+    section .menBx h4:after {
+        width: 75%;
+    }
+    section .womenBx h4:after {
+        width: 55%;
+    }
+    section .items_block .menBx , section  .items_block .womenBx {
+        margin: 50px 0px 50px;
+    }
+    section .about_us {
+        padding: 40px 0 40px;
+        margin-top: 50px;
+    }
+    section .about_us p {
+        margin-top: 40px;
+    }
+    /*-------FOOTER-------*/
+    footer .footer_text {
+        padding: 60px 0;
+    }
+    footer .footer_top h4 {
+        font-size: 14px;
+    }
+}
+/*Small*/
+@media screen and (max-width: 767px) and (min-width: 576px){
+    /*-------HEADER-------*/
+    header {
+        height: auto;
+    }
+    header p {
+        margin-bottom: 200px;
+    }
+    header h2 {
+        font-size: 30px;
+    }
+    header p {
+        font-size: 14px;
+    }
+    header .nav-link {
+        text-align: center;
+    }
+    /*-------SECTION-------*/
+    section  .section_menu {
+        height: auto;
+        padding: 15px 0px;
+    }
+    section .section_menu button{
+        padding: 15px 20px;
+        margin-top: 15px;
+    }
+    section .menBx h4:after {
+        width: 80%;
+    }
+    section .womenBx h4:after {
+        width: 70%;
+    }
+    section .items_block .menBx , section  .items_block .womenBx {
+        margin: 50px 0px 50px;
+    }
+}
+/*Medium*/
+@media screen and (max-width: 991px) and (min-width: 768px){
+    /*-------HEADER-------*/
+    header {
+        height: auto;
+    }
+    header p {
+       margin-bottom: 200px;
+    }
+    header .nav-link {
+        text-align: center;
+    }
+    /*-------SECTION-------*/
+    section  .section_menu {
+        height: auto;
+        padding: 15px 0px;
+    }
+    section .section_menu button{
+        padding: 15px 20px;
+        margin-top: 15px;
+    }
+    section .menBx h4:after {
+        width: 85%;
+    }
+    section .womenBx h4:after {
+        width: 75%;
+    }
+    section .items_block .menBx , section  .items_block .womenBx {
+        margin: 50px 0px 50px;
+    }
+}
+/*Large*/
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    /*-------HEADER-------*/
+    header {
+        height: auto;
+    }
+    header p {
+        margin-bottom: 200px;
+    }
+    /*-------SECTION-------*/
+    section .menBx h4:after {
+        width: 90%;
+    }
+    section .womenBx h4:after {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    /*-------HEADER-------*/
+    header h2 {
+        font-size: 16px;
+    }
+    header p {
+        font-size: 11px;
+    }
+    /*-------SECTION-------*/
+    section .menBx h4:after {
+        width: 70%;
+    }
+    section .womenBx h4:after {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 280px){
+    /*-------HEADER-------*/
+    header h2 {
+        font-size: 14px;
+    }
+    header p {
+        font-size: 10px;
+    }
+    /*-------SECTION-------*/
+    section .section_menu .nav-link {
+        font-size: 12px;
+    }
+    section .section_menu button{
+        padding: 12px 18px;
+        margin-top: 15px;
+    }
+    section .menBx h4:after {
+        width: 60%;
+    }
+    section .womenBx h4:after {
+        width: 40%;
+    }
+    footer .footer_top h4 {
+        font-size: 11px;
+    }
+    footer .footer_text h5 {
+        font-size: 14px;
+    }
+    footer .footer_text .nav-link {
+        font-size: 7px;
+    }
+}
